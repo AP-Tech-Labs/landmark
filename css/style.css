@@ -8,6 +8,10 @@
   font-display: swap;
 }
 
+:root {
+  --accent-color: #35d8d8ed;
+}
+
 .container,
 .container-fluid,
 .mil-list li,
@@ -30,7 +34,7 @@ section {
 .mil-input-frame input:focus,
 .mil-input-frame.mil-dark-input input:focus,
 .mil-input-frame.mil-dark-input textarea:focus {
-  box-shadow: 0 5px 0 0 #bcff00;
+  box-shadow: 0 5px 0 0 var(--accent-color);
 }
 *,
 :after,
@@ -208,7 +212,7 @@ blockquote .mil-quote {
   align-items: center;
   width: 80px;
   height: 80px;
-  background-color: #bcff00;
+  background-color: var(--accent-color);
 }
 .mil-button,
 .mil-link {
@@ -250,7 +254,7 @@ a {
 .mil-nav-buttons .mil-slider-button:hover,
 .mil-navigation nav ul li a:hover,
 .mil-page-numbers li a:hover {
-  color: #bcff00;
+  color: var(--accent-color);
 }
 .mil-light,
 .mil-light a {
@@ -275,7 +279,7 @@ a {
   color: rgba(0, 0, 0, 0.5);
 }
 .mil-marker {
-  background-color: #bcff00;
+  background-color: var(--accent-color);
   padding: 0 5px;
 }
 .mil-divider-lg,
@@ -362,7 +366,7 @@ a {
   margin-left: 15px;
   width: 40px;
   height: 40px;
-  background-color: #bcff00;
+  background-color: var(--accent-color);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -389,7 +393,7 @@ a {
 .mil-button {
   justify-content: center;
   border: none;
-  background-color: #bcff00;
+  background-color: var(--accent-color);
   padding: 0 60px;
   height: 70px;
   text-transform: uppercase;
@@ -430,7 +434,7 @@ a {
 .mil-page-numbers li.mil-active,
 .mil-price-card:hover .mil-price-button .mil-button,
 .mil-service-card:hover .mil-divider-sm {
-  background-color: #bcff00;
+  background-color: var(--accent-color);
 }
 .mil-breadcrumbs.mil-center,
 .mil-footer-navigation.mil-center {
@@ -497,7 +501,7 @@ a {
   width: 6px;
   height: 6px;
   border: 1px solid #000;
-  background-color: #bcff00;
+  background-color: var(--accent-color);
   transform: rotate(45deg);
   margin-right: 15px;
 }
@@ -545,7 +549,7 @@ a {
   border-radius: 50%;
 }
 .mil-icon-list li.mil-hover:hover img {
-  background-color: #bcff00;
+  background-color: var(--accent-color);
   margin-right: 30px;
 }
 .mil-soft-bg {
@@ -637,7 +641,7 @@ a {
 .mil-progress-track .mil-progress {
   width: 4px;
   height: 0;
-  background-color: #bcff00;
+  background-color: var(--accent-color);
 }
 ::-webkit-scrollbar {
   display: none;
@@ -1074,7 +1078,7 @@ a {
   transform: scale(1.1);
 }
 .mil-icon-box:hover .mil-icon.mil-icon-border {
-  border: 5px solid #bcff00;
+  border: 5px solid var(--accent-color);
   border-image: repeating-linear-gradient(
       -45deg,
       transparent,
@@ -1110,7 +1114,7 @@ a {
 .mil-blog-card:hover .mil-description .mil-link .mil-arrow,
 .mil-process-box:hover:before {
   background-color: transparent;
-  border: 3px solid #bcff00;
+  border: 3px solid var(--accent-color);
   border-image: repeating-linear-gradient(
       -45deg,
       transparent,
@@ -1123,11 +1127,11 @@ a {
 .mil-advantage:hover .mil-icon,
 .mil-hww:hover .mil-icon,
 .mil-process-box:hover .mil-icon {
-  border-color: #bcff00;
+  border-color: var(--accent-color);
 }
 .mil-hww:hover,
 .mil-hww:hover .mil-divider-sm {
-  border-top: 5px solid #bcff00;
+  border-top: 5px solid var(--accent-color);
   border-image: repeating-linear-gradient(
       -45deg,
       transparent,
@@ -1190,7 +1194,7 @@ a {
   background-color: #fff;
   padding-top: 80px;
   padding-bottom: 40px;
-  border: 5px solid #bcff00;
+  border: 5px solid var(--accent-color);
   border-image: repeating-linear-gradient(
       -45deg,
       transparent,
@@ -1264,7 +1268,7 @@ a {
   align-items: center;
   text-align: center;
   padding: 60px;
-  background-color: #bcff00;
+  background-color: var(--accent-color);
   transform: translateY(30px) scale(0.9);
   opacity: 0;
 }
@@ -1283,7 +1287,7 @@ a {
 }
 .mil-portfolio-item-2 .mil-project-descr {
   padding: 90px 60px 60px 100px;
-  background-color: #bcff00;
+  background-color: var(--accent-color);
   width: 100%;
   position: absolute;
   bottom: 0;
@@ -1308,7 +1312,7 @@ a {
   width: 160px;
   text-align: center;
   transform: rotate(-90deg);
-  background-color: #bcff00;
+  background-color: var(--accent-color);
   font-weight: 500;
   text-transform: uppercase;
 }
@@ -1350,7 +1354,7 @@ a {
   position: absolute;
 }
 .mil-accordion-group .mil-accordion-menu .mil-symbol .mil-minus {
-  color: #bcff00;
+  color: var(--accent-color);
   transform: translateY(-2px);
 }
 .mil-accordion-group .mil-accordion-menu:hover h6 {
@@ -1377,7 +1381,7 @@ a {
   color: #000;
   width: 120px;
   height: 30px;
-  background-color: #bcff00;
+  background-color: var(--accent-color);
   position: absolute;
   bottom: 45px;
   right: -10px;
@@ -1391,7 +1395,7 @@ a {
 }
 .mil-blog-card:hover .mil-suptitle:after {
   background-color: transparent;
-  border-top: 3px solid #bcff00;
+  border-top: 3px solid var(--accent-color);
   border-image: repeating-linear-gradient(
       -45deg,
       transparent,
@@ -1458,7 +1462,7 @@ footer .mil-bg-img {
 .mil-footer-navigation nav ul li.mil-active > a {
   padding: 5px 10px;
   color: #000;
-  background-color: #bcff00;
+  background-color: var(--accent-color);
 }
 .mil-footer-bottom {
   padding: 30px 0 15px;
@@ -1472,7 +1476,7 @@ footer .mil-bg-img {
   margin-right: 30px;
 }
 .mil-footer-bottom ul li a:hover {
-  color: #bcff00 !important;
+  color: var(--accent-color) !important;
 }
 .mil-top-panel {
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -1536,7 +1540,7 @@ footer .mil-logo {
 .mil-navigation nav ul li.mil-active > a {
   padding: 0 10px;
   color: #000;
-  background-color: #bcff00;
+  background-color: var(--accent-color);
 }
 .mil-navigation nav ul li.mil-has-children {
   position: relative;
@@ -1561,7 +1565,7 @@ footer .mil-logo {
   display: block;
   min-width: 200px;
   padding: 30px;
-  background-color: #bcff00;
+  background-color: var(--accent-color);
   transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
 }
 .mil-navigation nav ul li.mil-has-children ul li {
@@ -1653,7 +1657,7 @@ footer .mil-logo {
   content: "";
   width: 0;
   height: 100%;
-  background-color: #bcff00;
+  background-color: var(--accent-color);
   position: absolute;
   z-index: -1;
   top: 0;
@@ -1772,12 +1776,12 @@ footer .mil-logo {
 }
 .mil-checbox-frame .mil-checkbox:hover + label:before {
   background: rgba(255, 255, 255, 0.1);
-  border: 1px solid #bcff00;
+  border: 1px solid var(--accent-color);
 }
 .mil-checbox-frame .mil-checkbox:checked + label:before,
 .mil-checbox-frame.mil-dark-input .mil-checkbox:checked + label:before {
-  background: #bcff00;
-  border: 1px solid #bcff00;
+  background: var(--accent-color);
+  border: 1px solid var(--accent-color);
 }
 .mil-checbox-frame .mil-checkbox:disabled + label {
   color: #b8b8b8;
@@ -1805,7 +1809,7 @@ footer .mil-logo {
 .mil-review-frame .mil-reviev-head .mil-left .mil-quote {
   width: 70px;
   height: 70px;
-  background-color: #bcff00;
+  background-color: var(--accent-color);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1866,7 +1870,7 @@ footer .mil-logo {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: #bcff00;
+  background-color: var(--accent-color);
   height: 100%;
 }
 .mil-skill-frame .mil-skill-track .mil-skill-text {
@@ -1986,7 +1990,7 @@ footer .mil-logo {
   top: 0;
   width: 70px;
   height: 70px;
-  background-color: #bcff00;
+  background-color: var(--accent-color);
 }
 .mil-map-frame {
   width: 100%;
@@ -2053,7 +2057,7 @@ footer .mil-logo {
     transform: translateY(10px);
     box-shadow: 0 0 40px 0 rgba(18, 24, 32, 0.1);
     width: 100%;
-    background-color: #bcff00;
+    background-color: var(--accent-color);
     transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
   }
   .mil-navigation.mil-active {
@@ -2106,7 +2110,7 @@ footer .mil-logo {
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    border: 2px solid #bcff00;
+    border: 2px solid var(--accent-color);
   }
   .mil-navigation nav ul li.mil-has-children ul {
     position: static;
@@ -2244,7 +2248,7 @@ footer .mil-logo {
   content: "+";
   width: 40px;
   height: 40px;
-  background-color: #bcff00;
+  background-color: var(--accent-color);
   position: absolute;
   bottom: 10px;
   right: 10px;
@@ -2447,7 +2451,7 @@ footer .mil-logo {
   display: block;
   width: 80px;
   height: 80px;
-  border: 1px solid #bcff00;
+  border: 1px solid var(--accent-color);
   border-radius: 50%;
   display: flex;
   align-items: center;
