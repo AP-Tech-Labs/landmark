@@ -1,103 +1,66 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
-<head>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
     <!-- bootstrap grid css -->
-    <link rel="stylesheet" href="css/plugins/bootstrap-grid.css">
-    <!-- font awesome css -->
-    <link rel="stylesheet" href="css/plugins/font-awesome.min.css">
+    <link rel="stylesheet" href="css/plugins/bootstrap-grid.css" />
     <!-- swiper css -->
-    <link rel="stylesheet" href="css/plugins/swiper.min.css">
-    <!-- ruizarch css -->
-    <link rel="stylesheet" href="css/style.css">
-    <!-- page name -->
-    <title>Ruizarch</title>
+    <link rel="stylesheet" href="css/plugins/swiper.min.css" />
+    <!-- magnific css -->
+    <link rel="stylesheet" href="css/plugins/magnific-popup.css" />
 
-</head>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Landmark</title>
+  </head>
 
-<body>
-
+  <body>
     <!-- wrapper -->
     <div class="mil-wrapper">
+      <div class="mil-progress-track">
+        <div class="mil-progress"></div>
+      </div>
 
-        <div class="mil-progress-track">
-            <div class="mil-progress"></div>
-        </div>
+      <!-- top bar -->
+      <div class="mil-top-panel">
+        <div class="container-fluid">
+          <div class="mil-top-panel-content">
+            <a href="/" class="mil-logo"> LANDMARK </a>
 
-        <!-- top bar -->
-        <div class="mil-top-panel">
-            <div class="container-fluid">
-                <div class="mil-top-panel-content">
-                    <a href="home-1.html" class="mil-logo">
-                        <img src="img/logo/logo-light.png" alt="Logo" style="width: 130px;">
-                    </a>
+            <div class="mil-navigation">
+              <nav>
+                <ul>
+                  <!-- <li class="mil-has-children">
+                    <a href="services.html">Services</a>
+                    <ul>
+                      <li><a href="services.html">Services</a></li>
+                      <li><a href="service.html">Single Service</a></li>
+                    </ul>
+                  </li> -->
 
-                    <div class="mil-navigation">
-                        <nav>
-                            <ul>
-                                <li class="mil-has-children">
-                                    <a href="home-1.html">Home</a>
-                                    <ul>
-                                        <li><a href="home-1.html">Type 1</a></li>
-                                        <li><a href="home-2.html">Type 2</a></li>
-                                        <li><a href="home-3.html">Type 3</a></li>
-                                    </ul>
-                                </li>
-                                <li class="mil-has-children">
-                                    <a href="services.html">Services</a>
-                                    <ul>
-                                        <li><a href="services.html">Services</a></li>
-                                        <li><a href="service.html">Single Service</a></li>
-                                    </ul>
-                                </li>
-                                <li class="mil-has-children">
-                                    <a href="portfolio.html">Projects</a>
-                                    <ul>
-                                        <li><a href="portfolio.html">Projects list</a></li>
-                                        <li><a href="project.html">Single Project</a></li>
-                                    </ul>
-                                </li>
-                                <li class="mil-has-children">
-                                    <a href="blog.html">Blog</a>
-                                    <ul>
-                                        <li><a href="blog.html">Blog list</a></li>
-                                        <li><a href="publication.html">Single Publication</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="contact.html">Contact Us</a></li>
-                                <li class="mil-has-children mil-active">
-                                    <a href="#.">Other</a>
-                                    <ul>
-                                        <li><a href="about.html">About</a></li>
-                                        <li><a href="team.html">Team</a></li>
-                                        <li><a href="team-member.html">Team Member</a></li>
-                                        <li><a href="coming-soon.html">Coming Soon</a></li>
-                                        <li><a href="404.html">404</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-
-                    <!-- right buttons -->
-                    <div class="mil-top-panel-buttons">
-                        <a href="contact.html" class="mil-button mil-sm">Start A Project</a>
-                        <div class="mil-menu-btn">
-                            <span></span>
-                        </div>
-                    </div>
-                    <!-- right buttons end -->
-
-                </div>
-
+                  <li><a href="/">Home</a></li>
+                  <li><a href="/about.html">About Us</a></li>
+                  <li><a href="/leadership.html">Leadership</a></li>
+                  <li><a href="/careers.html">Careers</a></li>
+                  <li><a href="/regions.html">Communities</a></li>
+                </ul>
+              </nav>
             </div>
+
+            <!-- right buttons -->
+            <div class="mil-top-panel-buttons">
+              <a href="contact.html" class="mil-button mil-sm">Contact Us</a>
+              <div class="mil-menu-btn">
+                <span></span>
+              </div>
+            </div>
+            <!-- right buttons end -->
+          </div>
         </div>
-        <!-- top bar end -->
+      </div>
+      <!-- top bar end -->
 
         <!-- content -->
         <div id="content">
@@ -116,7 +79,7 @@
                                     <span class="mil-suptitle mil-light mil-upper mil-mb-60">Page Not Found</span>
                                     <h1 class="mil-upper mil-light mil-mb-60">Error <span class="mil-marker mil-dark">404</span></h1>
                                     <p class="mil-light-soft mil-mb-60">The page you are looking for does not exist, it may have been moved or removed altogether.</p>
-                                    <a href="home-1.html" class="mil-button">Back to Home</a>
+                                    <a href="/index.html" class="mil-button">Back to Home</a>
                                 </div>
 
                             </div>
@@ -147,7 +110,7 @@
     <script src="js/plugins/ScrollTrigger.min.js"></script>
     <!-- magnific js -->
     <script src="js/plugins/magnific-popup.js"></script>
-    <!-- ruizarch js -->
+    <!-- Leadership js -->
     <script src="js/main.js"></script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -161,7 +124,7 @@
 	</script>
 
 	<!-- bslthemes.com buttons html begin -->
-    <div class="bsl-popup" data-theme="ruizarch" data-category="html">
+    <div class="bsl-popup" data-theme="Leadership" data-category="html">
         <div class="bsl-popup__buttons"></div>
         <div class="bsl-popup__content bsl-popup__content-related">
         <div class="bsl-popup__menu"></div>

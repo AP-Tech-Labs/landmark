@@ -2245,7 +2245,7 @@ footer .mil-logo {
   border: 5px solid transparent;
 }
 .mil-team-member:after {
-  content: "+";
+  /* content: "+"; */
   width: 40px;
   height: 40px;
   background-color: var(--accent-color);
