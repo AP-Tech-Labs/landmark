@@ -255,7 +255,7 @@ $(function () {
   }
   void 0 !== u && p(4),
     m.after(
-      '<div class="mil-load-more mil-up"><button id="load-more">Load More</button></div>'
+      // '<div class="mil-load-more mil-up"><button id="load-more">Load More</button></div>'
     ),
     $("#load-more").on("click", function () {
       $("#filters").data("clicked") &&
