@@ -66,8 +66,18 @@
       <div id="content">
         <!-- banner -->
         <section class="mil-banner">
-          <video
+          <div style="position: relative; display: flex; justify-content: center; align-items: center;">
+            <!-- Top Center Photo -->
+            <img
+              src="img/covers/top1.png"
+              alt="Top Center Photo"
+              style="position: absolute; top: 20px; left: 50%; transform: translateX(-50%); z-index: 2; width: 768px; height: auto; padding-top: 10px;"
+            />
+        
+            <!-- Video Section -->
+            <video
             class="mil-bg-img mil-scale"
+            style="height: auto;"
             autoplay
             muted
             loop
@@ -78,13 +88,35 @@
             <source src="img/video/Web Video Vimeo 66 MB.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
-          <!-- <img
-            src="img/photo/1.jpg"
+        
+            <!-- Bottom Center Photo -->
+            <img
+              src="img/covers/top2.png"
+              alt="Bottom Center Photo"
+              style="position: absolute; top: 750px; left: 50%; transform: translateX(-50%); z-index: 2; width: 734px; height: auto; padding-bottom: 10px;"
+            />
+          </div>
+        </section>
+        <section class="mil-banner">
+          <!-- <video
             class="mil-bg-img mil-scale"
+            autoplay
+            muted
+            loop
+            playsinline
+            data-value-1=".4"
+            data-value-2="1.4"
+          >
+            <source src="img/video/Web Video Vimeo 66 MB.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video> -->
+          <img
+            src="img/photo/1.jpg"
+            class="mil-bg-img"
             data-value-1=".4"
             data-value-2="1.4"
             alt="image"
-          /> -->
+          />
           <div class="mil-overlay"></div>
           <div class="container">
             <div class="mil-background-grid mil-top-space"></div>

@@ -9,7 +9,7 @@
 }
 
 :root {
-  --accent-color: #35d8d8ed;
+  --accent-color: #0597f2;
 }
 
 .container,
@@ -50,7 +50,7 @@ html {
   font-family: Sora, sans-serif;
   font-size: 15px;
   font-weight: 400;
-  color: rgba(0, 0, 0, 0.7);
+  color: #326295;
   line-height: 170%;
 }
 .mil-wrapper {
@@ -98,7 +98,7 @@ h4,
 h5,
 h6 {
   font-family: Sora, sans-serif;
-  color: #000;
+  color: #0597f2;
   font-weight: 700;
   line-height: 120%;
 }
@@ -214,10 +214,13 @@ blockquote .mil-quote {
   height: 80px;
   background-color: var(--accent-color);
 }
-.mil-button,
+.mil-button {
+  align-items: center;
+  color: #fff;
+}
 .mil-link {
   align-items: center;
-  color: #000;
+  color: #326295;
 }
 blockquote .mil-quote-text {
   padding: 30px;
@@ -280,6 +283,7 @@ a {
 }
 .mil-marker {
   background-color: var(--accent-color);
+  color: #fff;
   padding: 0 5px;
 }
 .mil-divider-lg,
@@ -302,7 +306,7 @@ a {
   font-family: Sora, sans-serif;
   display: inline-block;
   padding-bottom: 10px;
-  color: #000;
+  color: #326295;
   font-weight: 600;
 }
 .mil-button,
@@ -1268,7 +1272,7 @@ a {
   align-items: center;
   text-align: center;
   padding: 60px;
-  background-color: var(--accent-color);
+  background-color: #326295;
   transform: translateY(30px) scale(0.9);
   opacity: 0;
 }
