@@ -1281,8 +1281,8 @@ a {
   border-image: repeating-linear-gradient(-45deg,
       transparent,
       transparent 1px,
-      rgb(188, 255, 0) 1px,
-      rgb(188, 255, 0) 3px) 5;
+      #0597f2 1px,
+      #0597f2 3px) 5;
 }
 
 .mil-advantage:before {
@@ -1314,8 +1314,8 @@ a {
   border-image: repeating-linear-gradient(-45deg,
       transparent,
       transparent 1px,
-      rgb(188, 255, 0) 1px,
-      rgb(188, 255, 0) 3px) 3;
+      #0597f2 1px,
+      #0597f2 3px) 3;
 }
 
 .mil-advantage:hover .mil-icon,
@@ -1330,8 +1330,8 @@ a {
   border-image: repeating-linear-gradient(-45deg,
       transparent,
       transparent 1px,
-      rgb(188, 255, 0) 1px,
-      rgb(188, 255, 0) 3px) 5;
+      #0597f2 1px,
+      #0597f2 3px) 5;
 }
 
 .mil-hww {
@@ -1396,8 +1396,8 @@ a {
   border-image: repeating-linear-gradient(-45deg,
       transparent,
       transparent 1px,
-      rgb(188, 255, 0) 1px,
-      rgb(188, 255, 0) 3px) 5;
+      #0597f2 1px,
+      #0597f2 3px) 5;
 }
 
 .mil-accordion-group.mil-dark,
@@ -1623,8 +1623,8 @@ a {
   border-image: repeating-linear-gradient(-45deg,
       transparent,
       transparent 1px,
-      rgb(188, 255, 0) 1px,
-      rgb(188, 255, 0) 3px) 3;
+      #0597f2 1px,
+      #0597f2 3px) 3;
 }
 
 .mil-blog-card.mil-lg-card {
@@ -1933,10 +1933,10 @@ footer .mil-logo {
 .mil-img-wrapper {
   position: absolute;
   z-index: 9;
-  width: 55%;
+  width: 40%;
   padding-bottom: 38%;
   top: 9%;
-  right: -100px;
+  right: -50px;
   overflow: hidden;
   transform: scale(0.7);
   visibility: hidden;
