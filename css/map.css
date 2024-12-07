@@ -1,0 +1,27 @@
+svg#us-map {
+    display: block;
+    margin: auto;
+    width: 70%;
+}
+
+.state {
+    fill: none;
+    stroke: #b0b0b0;
+    stroke-linejoin: round;
+}
+
+.state.enabled {
+    fill: #0597f2c3;
+    cursor: pointer;
+}
+
+.state.enabled:hover {
+    fill: #0597f2;
+}
+
+.outline {
+    fill: none;
+    stroke: black;
+    stroke-width: 1px;
+    pointer-events: none;
+}
