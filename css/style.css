@@ -698,6 +698,10 @@ a {
   padding-bottom: 90px;
 }
 
+.mil-p-30-0 {
+  padding-top: 30px;
+}
+
 .mil-p-120-0 {
   padding-top: 120px;
 }
@@ -1710,6 +1714,7 @@ footer .mil-bg-img {
 }
 
 .mil-top-panel {
+  background-color: rgba(5, 151, 242, 0.9);
   position: fixed;
   z-index: 999;
   top: 0;
