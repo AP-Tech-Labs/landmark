@@ -2899,16 +2899,10 @@ footer .mil-logo {
 
 .mil-banner-video {
   width: 100%;
-  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
   object-fit: cover;
   display: block;
-}
-
-@media screen and (min-width: 768px) {
-  .mil-banner-video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-  }
 }
