@@ -2965,3 +2965,32 @@ footer .mil-logo {
   object-fit: cover;
   display: block;
 }
+
+/* Process step hover animation */
+.mil-process-step {
+  display: inline-block;
+  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 0.25s cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 18px;
+  border: 2px solid transparent;
+  box-shadow: 0 2px 8px rgba(50, 98, 149, 0.04);
+  margin-bottom: 24px;
+}
+.mil-process-step:hover,
+.mil-process-step:focus {
+  transform: translateY(-16px) scale(1.07);
+  box-shadow: 0 12px 36px rgba(5, 151, 242, 0.22);
+  border-color: var(--accent-color);
+  background: #f6fbff;
+  text-decoration: none;
+  outline: none;
+  z-index: 2;
+}
+@media (max-width: 992px) {
+  .mil-process-step {
+    width: 100% !important;
+    display: block;
+    margin-bottom: 18px;
+  }
+}
