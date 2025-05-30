@@ -284,34 +284,64 @@
             </h1>
 
             <svg id="us-map" class="mil-p-0-120" viewBox="0 0 975 610"></svg>
+            <div
+              id="map-tooltip"
+              style="position: absolute; pointer-events: none; display: none"
+            ></div>
 
-            <div class="d-flex justify-content-between align-items-center">
-              <div style="width: 19%">
-                <a
-                  href="/california.html"
-                  class="mil-portfolio-item mil-square-item mil-up"
-                >
-                  <img src="img/covers/california.png" alt="cover" />
-                  <div class="mil-project-descr">
-                    <h4 class="mil-upper mil-mb-20">California</h4>
-                    <div class="mil-divider-sm mil-mb-20"></div>
-                  </div>
-                </a>
-              </div>
-
-              <div style="width: 19%">
+            <div
+              class="portfolio-grid"
+              style="
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-rows: 1fr 1fr;
+                gap: 20px;
+              "
+            >
+              <div>
                 <a
                   href="/mexico.html"
                   class="mil-portfolio-item mil-square-item mil-up"
                 >
-                  <img src="img/covers/mexico.jpg" alt="cover" />
+                  <img
+                    src="img/covers/mexico.jpg"
+                    alt="cover"
+                    style="height: 100%; object-fit: cover"
+                  />
                   <div class="mil-project-descr">
                     <h4 class="mil-upper mil-mb-20">New Mexico</h4>
+                    <p
+                      class="mil-text-sm mil-light mil-mb-20"
+                      style="font-size: 0.75rem"
+                    >
+                      Albuquerque
+                    </p>
                     <div class="mil-divider-sm mil-mb-20"></div>
                   </div>
                 </a>
               </div>
-              <div style="width: 19%">
+
+              <div style="grid-row: span 2">
+                <a
+                  href="/california.html"
+                  class="mil-portfolio-item mil-up"
+                  style="width: 100%; height: 100%"
+                >
+                  <img src="img/covers/california.png" alt="cover" />
+                  <div class="mil-project-descr">
+                    <h4 class="mil-upper mil-mb-20">California</h4>
+                    <p
+                      class="mil-text-sm mil-light mil-mb-20"
+                      style="font-size: 0.75rem"
+                    >
+                      Alameda • Dixon • San Francisco
+                    </p>
+                    <div class="mil-divider-sm mil-mb-20"></div>
+                  </div>
+                </a>
+              </div>
+
+              <div>
                 <a
                   href="/kansas.html"
                   class="mil-portfolio-item mil-square-item mil-up"
@@ -319,11 +349,18 @@
                   <img src="img/covers/kansas.jpg" alt="cover" />
                   <div class="mil-project-descr">
                     <h4 class="mil-upper mil-mb-20">Kansas</h4>
+                    <p
+                      class="mil-text-sm mil-light mil-mb-20"
+                      style="font-size: 0.75rem"
+                    >
+                      Mission • Olathe • Overland Park • Topeka
+                    </p>
                     <div class="mil-divider-sm mil-mb-20"></div>
                   </div>
                 </a>
               </div>
-              <div style="width: 19%">
+
+              <div>
                 <a
                   href="/missouri.html"
                   class="mil-portfolio-item mil-square-item mil-up"
@@ -331,11 +368,18 @@
                   <img src="img/covers/missouri.jpg" alt="cover" />
                   <div class="mil-project-descr">
                     <h4 class="mil-upper mil-mb-20">Missouri</h4>
+                    <p
+                      class="mil-text-sm mil-light mil-mb-20"
+                      style="font-size: 0.75rem"
+                    >
+                      Kansas City
+                    </p>
                     <div class="mil-divider-sm mil-mb-20"></div>
                   </div>
                 </a>
               </div>
-              <div style="width: 19%">
+
+              <div>
                 <a
                   href="/illinois.html"
                   class="mil-portfolio-item mil-square-item mil-up"
@@ -343,6 +387,12 @@
                   <img src="img/covers/illinois.jpg" alt="cover" />
                   <div class="mil-project-descr">
                     <h4 class="mil-upper mil-mb-20">Illinois</h4>
+                    <p
+                      class="mil-text-sm mil-light mil-mb-20"
+                      style="font-size: 0.75rem"
+                    >
+                      Lansing
+                    </p>
                     <div class="mil-divider-sm mil-mb-20"></div>
                   </div>
                 </a>
@@ -354,7 +404,7 @@
 
         <!-- journey -->
         <section>
-          <div class="container mil-p-120-90">
+          <div class="mil-p-120-90">
             <img
               src="img/photo/map.png"
               class="mil-bg-img"
@@ -364,53 +414,54 @@
               data-value-2="1.2"
             />
             <div class="mil-overlay"></div>
+            <div class="container">
+              <div class="row justify-content-between" style="color: white">
+                <div class="col-lg-4">
+                  <div class="mil-mb-90">
+                    <h2 class="mil-upper mil-up mil-mb-30">Our Journey</h2>
 
-            <div class="row justify-content-between" style="color: white">
-              <div class="col-lg-4">
-                <div class="mil-mb-90">
-                  <h2 class="mil-upper mil-up mil-mb-30">Our Journey</h2>
-
-                  <a
-                    href="about.html"
-                    class="mil-link mil-upper mil-up"
-                    style="color: white"
-                    >Learn More
-                    <span class="mil-arrow"
-                      ><img src="img/icons/1.svg" alt="arrow" /></span
-                  ></a>
+                    <a
+                      href="about.html"
+                      class="mil-link mil-upper mil-up"
+                      style="color: white"
+                      >Learn More
+                      <span class="mil-arrow"
+                        ><img src="img/icons/1.svg" alt="arrow" /></span
+                    ></a>
+                  </div>
                 </div>
-              </div>
-              <div class="col-lg-7">
-                <div class="mil-hover-images mil-up">
-                  <ul class="row">
-                    <li
-                      class="mil-up mil-hover-item col-8"
-                      data-src="img/photo/begining.jpg"
-                    >
-                      <p class="mil-mb-5">1968</p>
-                      <p class="mil-h4 mil-mb-20">Our Beginnings</p>
-                      <p class="w-50">
-                        Landmark Realty began in 1968, purchasing and managing a
-                        4-unit building in San Francisco's historic Mission
-                        District.
-                      </p>
-                    </li>
-                    <hr class="mil-up mil-divider-lg mil-mb-40" />
-                    <li
-                      class="mil-up mil-hover-item col-8"
-                      data-src="img/photo/portrait.jpg"
-                    >
-                      <p class="mil-mb-5">2024</p>
-                      <p class="mil-h4 mil-mb-20">Today</p>
-                      <p>
-                        Landmark manages over 7,600 units with 70 properties
-                        nationwide and continues to grow our multi-family &
-                        corporate housing portfolio.
-                      </p>
-                    </li>
-                  </ul>
-                  <div class="mil-img-wrapper mil-mb-30">
-                    <img src="img/photo/2.jpg" alt="image" />
+                <div class="col-lg-7">
+                  <div class="mil-hover-images mil-up">
+                    <ul class="row">
+                      <li
+                        class="mil-up mil-hover-item col-8"
+                        data-src="img/photo/begining.jpg"
+                      >
+                        <p class="mil-mb-5">1968</p>
+                        <p class="mil-h4 mil-mb-20">Our Beginnings</p>
+                        <p class="w-50">
+                          Landmark Realty began in 1968, purchasing and managing
+                          a 4-unit building in San Francisco's historic Mission
+                          District.
+                        </p>
+                      </li>
+                      <hr class="mil-up mil-divider-lg mil-mb-40" />
+                      <li
+                        class="mil-up mil-hover-item col-8"
+                        data-src="img/photo/portrait.jpg"
+                      >
+                        <p class="mil-mb-5">2024</p>
+                        <p class="mil-h4 mil-mb-20">Today</p>
+                        <p>
+                          Landmark manages over 7,600 units with 70 properties
+                          nationwide and continues to grow our multi-family &
+                          corporate housing portfolio.
+                        </p>
+                      </li>
+                    </ul>
+                    <div class="mil-img-wrapper mil-mb-30">
+                      <img src="img/photo/2.jpg" alt="image" />
+                    </div>
                   </div>
                 </div>
               </div>

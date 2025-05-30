@@ -1,27 +1,42 @@
 svg#us-map {
-    display: block;
-    margin: auto;
-    width: 70%;
+  display: block;
+  margin: auto;
+  width: 70%;
 }
 
 .state {
-    fill: none;
-    stroke: #b0b0b0;
-    stroke-linejoin: round;
+  fill: none;
+  stroke: #b0b0b0;
+  stroke-linejoin: round;
 }
 
 .state.enabled {
-    fill: #0597f2c3;
-    cursor: pointer;
+  fill: #0597f2c3;
+  cursor: pointer;
 }
 
 .state.enabled:hover {
-    fill: #0597f2;
+  fill: #0597f2;
 }
 
 .outline {
-    fill: none;
-    stroke: black;
-    stroke-width: 1px;
-    pointer-events: none;
+  fill: none;
+  stroke: black;
+  stroke-width: 1px;
+  pointer-events: none;
+}
+
+#map-tooltip {
+  background: rgba(0, 0, 0, 0.85);
+  color: #fff;
+  padding: 6px 14px;
+  border-radius: 4px;
+  font-size: 1rem;
+  pointer-events: none;
+  position: absolute;
+  z-index: 1000;
+  white-space: nowrap;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  display: none;
+  transition: opacity 0.15s;
 }

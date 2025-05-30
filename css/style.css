@@ -1509,7 +1509,7 @@ a {
   align-items: center;
   text-align: center;
   padding: 60px;
-  background-color: #326295;
+  background-color: rgba(50, 98, 149, 0.7);
   transform: translateY(30px) scale(0.9);
   opacity: 0;
 }
