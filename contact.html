@@ -1,519 +1,691 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
-<head>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
     <!-- bootstrap grid css -->
-    <link rel="stylesheet" href="css/plugins/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/plugins/bootstrap-grid.css" />
     <!-- font awesome css -->
-    <link rel="stylesheet" href="css/plugins/font-awesome.min.css">
+    <link rel="stylesheet" href="css/plugins/font-awesome.min.css" />
     <!-- swiper css -->
-    <link rel="stylesheet" href="css/plugins/swiper.min.css">
+    <link rel="stylesheet" href="css/plugins/swiper.min.css" />
     <!-- Leadership css -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
     <!-- page name -->
     <title>Leadership</title>
+  </head>
 
-</head>
-
-<body>
-
+  <body>
     <!-- wrapper -->
     <div class="mil-wrapper">
+      <div class="mil-progress-track">
+        <div class="mil-progress"></div>
+      </div>
 
-        <div class="mil-progress-track">
-            <div class="mil-progress"></div>
-        </div>
+      <!-- top bar -->
+      <div class="mil-top-panel">
+        <div class="container-fluid">
+          <div class="mil-top-panel-content">
+            <a href="home-1.html" class="mil-logo">
+              <img
+                src="img/logo/logo-light.png"
+                alt="Logo"
+                style="width: 130px"
+              />
+            </a>
 
-        <!-- top bar -->
-        <div class="mil-top-panel">
-            <div class="container-fluid">
-                <div class="mil-top-panel-content">
-                    <a href="home-1.html" class="mil-logo">
-                        <img src="img/logo/logo-light.png" alt="Logo" style="width: 130px;">
-                    </a>
-
-                    <div class="mil-navigation">
-                        <nav>
-                            <ul>
-                                <li class="mil-has-children">
-                                    <a href="home-1.html">Home</a>
-                                    <ul>
-                                        <li><a href="home-1.html">Type 1</a></li>
-                                        <li><a href="home-2.html">Type 2</a></li>
-                                        <li><a href="home-3.html">Type 3</a></li>
-                                    </ul>
-                                </li>
-                                <li class="mil-has-children">
-                                    <a href="services.html">Services</a>
-                                    <ul>
-                                        <li><a href="services.html">Services</a></li>
-                                        <li><a href="service.html">Single Service</a></li>
-                                    </ul>
-                                </li>
-                                <li class="mil-has-children">
-                                    <a href="portfolio.html">Projects</a>
-                                    <ul>
-                                        <li><a href="portfolio.html">Projects list</a></li>
-                                        <li><a href="project.html">Single Project</a></li>
-                                    </ul>
-                                </li>
-                                <li class="mil-has-children">
-                                    <a href="blog.html">Blog</a>
-                                    <ul>
-                                        <li><a href="blog.html">Blog list</a></li>
-                                        <li><a href="publication.html">Single Publication</a></li>
-                                    </ul>
-                                </li>
-                                <li class="mil-active"><a href="contact.html">Contact Us</a></li>
-                                <li class="mil-has-children">
-                                    <a href="#.">Other</a>
-                                    <ul>
-                                        <li><a href="about.html">About</a></li>
-                                        <li><a href="team.html">Team</a></li>
-                                        <li><a href="/leadership">Team Member</a></li>
-                                        <li><a href="coming-soon.html">Coming Soon</a></li>
-                                        <li><a href="404.html">404</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-
-                    <!-- right buttons -->
-                    <div class="mil-top-panel-buttons">
-                        <a href="contact.html" class="mil-button mil-sm">Start A Project</a>
-                        <div class="mil-menu-btn">
-                            <span></span>
-                        </div>
-                    </div>
-                    <!-- right buttons end -->
-
-                </div>
-
+            <div class="mil-navigation">
+              <nav>
+                <ul>
+                  <li class="mil-has-children">
+                    <a href="home-1.html">Home</a>
+                    <ul>
+                      <li><a href="home-1.html">Type 1</a></li>
+                      <li><a href="home-2.html">Type 2</a></li>
+                      <li><a href="home-3.html">Type 3</a></li>
+                    </ul>
+                  </li>
+                  <li class="mil-has-children">
+                    <a href="services.html">Services</a>
+                    <ul>
+                      <li><a href="services.html">Services</a></li>
+                      <li><a href="service.html">Single Service</a></li>
+                    </ul>
+                  </li>
+                  <li class="mil-has-children">
+                    <a href="portfolio.html">Projects</a>
+                    <ul>
+                      <li><a href="portfolio.html">Projects list</a></li>
+                      <li><a href="project.html">Single Project</a></li>
+                    </ul>
+                  </li>
+                  <li class="mil-has-children">
+                    <a href="blog.html">Blog</a>
+                    <ul>
+                      <li><a href="blog.html">Blog list</a></li>
+                      <li><a href="publication.html">Single Publication</a></li>
+                    </ul>
+                  </li>
+                  <li class="mil-active">
+                    <a href="contact.html">Contact Us</a>
+                  </li>
+                  <li class="mil-has-children">
+                    <a href="#.">Other</a>
+                    <ul>
+                      <li><a href="about.html">About</a></li>
+                      <li><a href="team.html">Team</a></li>
+                      <li><a href="/leadership">Team Member</a></li>
+                      <li><a href="coming-soon.html">Coming Soon</a></li>
+                      <li><a href="404.html">404</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </nav>
             </div>
-        </div>
-        <!-- top bar end -->
 
-        <!-- content -->
-        <div id="content">
-
-            <!-- banner -->
-            <section class="mil-banner mil-banner-sm">
-                <img src="img/photo/12.jpg" class="mil-bg-img mil-scale" data-value-1=".4" data-value-2="1.4"
-                    alt="image" style="object-position: top">
-                <div class="mil-overlay"></div>
-                <div class="container">
-                    <div class=" mil-top-space"></div>
-                    <div class="mil-banner-content mil-center">
-                        <div class="mil-mb-90">
-                            <h1 class="mil-light mil-upper mil-mb-30">We’d love to talk</h1>
-                            <ul class="mil-breadcrumbs mil-center">
-                                <li><a href="home-2.html">Home</a></li>
-                                <li><a href="contact.html">Contact</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- banner end -->
-
-            <!-- about -->
-            <section>
-                <div class="container mil-p-120-60">
-                    <div class=" mil-softened"></div>
-                    <div class="row justify-content-between">
-                        <div class="col-lg-6">
-
-                            <div class="mil-mb-90">
-                                <h2 class="mil-upper mil-up mil-mb-30">Info Contact</h2>
-                                <p class="mil-up mil-mb-40">It is a long established fact that a reader will be
-                                    distracted by the readable content of a page when looking at its layout. The point
-                                    of using Lorem Ipsum is that it has a more or less normal distribution of letters.
-                                </p>
-                            </div>
-
-                        </div>
-                        <div class="col-lg-4 mil-relative">
-
-                            <div class="mil-contact-sidebar">
-
-                                <img src="img/photo/2.jpg" alt="img"
-                                    style="width: 100%; height: 200px; object-fit: cover; object-position: 0 -60px"
-                                    class="mil-mb-30">
-
-                                <div class="mil-sidebar-info">
-
-                                    <h6 class="mil-upper mil-up mil-mb-30">Headquarters</h6>
-                                    <ul class="mil-list mil-dark mil-up mil-mb-30">
-                                        <li>USA</li>
-                                        <li>New York - 1800 Wazee Street</li>
-                                        <li>Suite 300 NY, NY 80202</li>
-                                    </ul>
-                                    <h6 class="mil-upper mil-up mil-mb-30">Phone</h6>
-                                    <ul class="mil-list mil-dark mil-up mil-mb-30">
-                                        <li>+7 (200) 600-30-30</li>
-                                        <li>+7 (200) 200 - 80 - 02</li>
-                                    </ul>
-                                    <h6 class="mil-upper mil-up mil-mb-30">Email</h6>
-                                    <ul class="mil-list mil-dark mil-up">
-                                        <li>info@Leadership.com</li>
-                                        <li>hello@Leadership.com</li>
-                                    </ul>
-
-                                </div>
-
-                            </div>
-
-                        </div>
-                        <div class="col-lg-7">
-                            <div class="row">
-                                <div class="col-lg-4">
-                                    <div class="mil-up mil-mb-60">
-                                        <span class="mil-suptitle mil-upper mil-up mil-mb-30">Wills Point</span>
-                                        <p class="mil-up">10233 Gaillard Lake Est <br>Suite 420 <br>Houston, TX 75169
-                                            <br>(903) 560 - 9830
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4">
-                                    <div class="mil-up mil-mb-60">
-                                        <span class="mil-suptitle mil-upper mil-up mil-mb-30">Chicago</span>
-                                        <p class="mil-up">10233 Gaillard Lake Est <br>Suite 420 <br>Houston, TX 75169
-                                            <br>(903) 560 - 9830
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4">
-                                    <div class="mil-up mil-mb-60">
-                                        <span class="mil-suptitle mil-upper mil-up mil-mb-30">Harriman</span>
-                                        <p class="mil-up">10233 Gaillard Lake Est <br>Suite 420 <br>Houston, TX 75169
-                                            <br>(903) 560 - 9830
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- about end -->
-
-            <!-- map -->
-            <div class="mil-map-frame mil-up">
-                <div class="mil-map">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1396.5769090312324!2d-73.6519672!3d45.5673453!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91f8abc30e0ff%3A0xfc6d9cbb49022e9c!2sManoir%20Saint-Joseph!5e0!3m2!1sen!2sua!4v1685485811069!5m2!1sen!2sua"
-                        style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
+            <!-- right buttons -->
+            <div class="mil-top-panel-buttons">
+              <a href="contact.html" class="mil-button mil-sm"
+                >Start A Project</a
+              >
+              <div class="mil-menu-btn">
+                <span></span>
+              </div>
             </div>
-            <!-- map end -->
-
-            <!-- contact -->
-            <section class="mil-relative">
-                <div class="container mil-p-120-30">
-                    <div class=" mil-softened"></div>
-                    <div class="row justify-content-between">
-                        <div class="col-lg-4">
-
-                            <div class="mil-mb-90">
-                                <h2 class="mil-upper mil-up mil-mb-30">We’d love to talk</h2>
-                                <p class="mil-up mil-mb-30">Have a question? We’d love to hear from you. Send us a note
-                                    to get the conversation started - or click on an office above and talk to us.
-                                    Especially about designing something, or something we’ve designed.</p>
-                                <div class="mil-divider-lg mil-up mil-mb-30"></div>
-                                <p class="mil-up mil-mb-30">Interested in joining the team? Browse our current openings.
-                                </p>
-                                <div class="mil-up">
-                                    <a href="contact.html" class="mil-link mil-upper">Join Us <span
-                                            class="mil-arrow"><img src="img/icons/1.svg" alt="arrow"></span></a>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="col-lg-7">
-
-                            <form id="cform" class="mil-mb-90 cform">
-                                <div class="row">
-                                    <div class="col-lg-6">
-
-                                        <div class="mil-input-frame mil-dark-input mil-up mil-mb-30">
-                                            <label class="mil-upper"><span>Full Name</span><span
-                                                    class="mil-required">*</span></label>
-                                            <input type="text" name="name" placeholder="Enter Your Name Here">
-                                        </div>
-
-                                    </div>
-                                    <div class="col-lg-6">
-
-                                        <div class="mil-input-frame mil-dark-input mil-up mil-mb-30">
-                                            <label class="mil-upper"><span>Email address</span><span
-                                                    class="mil-required">*</span></label>
-                                            <input type="email" name="email" placeholder="Enter Your Email Here">
-                                        </div>
-
-                                    </div>
-                                    <div class="col-lg-6">
-
-                                        <div class="mil-input-frame mil-dark-input mil-up mil-mb-30">
-                                            <label class="mil-upper"><span>Phone</span><span
-                                                    class="mil-required">*</span></label>
-                                            <input type="tel" name="tel" placeholder="Enter Your Phone Here">
-                                        </div>
-
-                                    </div>
-                                    <div class="col-lg-6">
-
-                                        <div class="mil-input-frame mil-dark-input mil-up mil-mb-30">
-                                            <label class="mil-upper"><span>Budget</span><span
-                                                    class="mil-required">*</span></label>
-                                            <input type="text" name="budget" placeholder="Enter Your Name Here">
-                                        </div>
-
-                                    </div>
-                                    <div class="col-lg-12">
-
-                                        <div class="mil-input-frame mil-dark-input mil-up mil-mb-30">
-                                            <label class="mil-upper"><span>Message</span><span
-                                                    class="mil-required">*</span></label>
-                                            <textarea name="message" placeholder="Enter Your Name Here"></textarea>
-                                        </div>
-
-                                    </div>
-                                    <div class="col-lg-12">
-
-                                        <div class="mil-checbox-frame mil-dark-input mil-up mil-mb-30">
-                                            <input checked class="mil-checkbox" id="checkbox-1" type="checkbox"
-                                                value="value">
-                                            <label for="checkbox-1" class="mil-text-sm">Accept the terms and conditions
-                                                of personal data.</label>
-                                        </div>
-
-                                    </div>
-                                    <div class="col-lg-12">
-
-                                        <a href="#." onclick="$('#cform').submit(); return false;"
-                                            class="mil-button mil-up">Send Now</a>
-
-                                    </div>
-                                </div>
-                            </form>
-                            <div class="alert-success mil-mb-90" style="display: none;">
-                                <h5>Thanks, your message is sent successfully.</h5>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- contact end -->
-
-            <!-- footer -->
-            <footer class="mil-relative">
-                <img src="img/photo/Raintree cover 11.png" class="mil-bg-img mil-parallax" alt="image"
-                    style="object-position: top" data-value-1="-25%" data-value-2="23%" />
-                <div class="mil-overlay"></div>
-                <div class="container mil-p-120-90">
-                    <div class=""></div>
-                    <div class="row align-items-end">
-                        <div class="col-lg-12 mil-mb-30">
-                            <div class="row">
-                                <div class="col-12">
-                                    <div class="mil-footer-navigation mil-up mil-mb-90">
-                                        <nav>
-                                            <ul>
-                                                <li>
-                                                    <a href="/">Home</a>
-                                                </li>
-                                                <li>
-                                                    <a href="/about.html">About</a>
-                                                </li>
-                                                <li>
-                                                    <a href="/leadership.html">Leadership</a>
-                                                </li>
-                                                <li>
-                                                    <a href="/careers.html">Careers</a>
-                                                </li>
-                                                <li>
-                                                    <a href="/regions.html">Communities</a>
-                                                </li>
-                                            </ul>
-                                        </nav>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 col-lg-6 col-xl-3">
-                                    <span class="row mil-suptitle mil-light mil-upper mil-up mil-mb-30">Regions</span>
-                                    <a href="/california.html"
-                                        class="row mil-text-sm mil-up mil-light-soft">California</a>
-                                    <a href="/mexico.html" class="row mil-text-sm mil-up mil-light-soft">New Mexico</a>
-                                    <a href="/kansas.html" class="row mil-text-sm mil-up mil-light-soft">Kansas</a>
-                                    <a href="/missouri.html" class="row mil-text-sm mil-up mil-light-soft">Missouri</a>
-                                    <a href="/illinois.html" class="row mil-text-sm mil-up mil-light-soft">Illinois</a>
-                                </div>
-                                <div class="col-md-6 col-lg-6 col-xl-3">
-                                    <span class="row mil-suptitle mil-light mil-upper mil-up mil-mb-30">Cities</span>
-                                    <a href="/california.html" class="row mil-text-sm mil-up mil-light-soft">Alameda,
-                                        CA</a>
-                                    <a href="/mexico.html" class="row mil-text-sm mil-up mil-light-soft">Albuquerque,
-                                        NM</a>
-                                    <a href="/california.html" class="row mil-text-sm mil-up mil-light-soft">Dixon,
-                                        CA</a>
-                                    <a href="/missouri.html" class="row mil-text-sm mil-up mil-light-soft">Kansas City,
-                                        MO</a>
-                                    <a href="/illinois.html" class="row mil-text-sm mil-up mil-light-soft">Lansing,
-                                        IL</a>
-                                    <a href="/kansas.html" class="row mil-text-sm mil-up mil-light-soft">Mission, KS</a>
-                                    <a href="/kansas.html" class="row mil-text-sm mil-up mil-light-soft">Olathe, KS</a>
-                                    <a href="/kansas.html" class="row mil-text-sm mil-up mil-light-soft">Overland Park,
-                                        KS</a>
-                                    <a href="/california.html" class="row mil-text-sm mil-up mil-light-soft">San
-                                        Francisco, CA</a>
-                                    <a href="/kansas.html" class="row mil-text-sm mil-up mil-light-soft">Topeka, KS</a>
-                                </div>
-                                <div class="col-md-6 col-lg-6 col-xl-3" style="width: 50%;">
-                                    <span
-                                        class="row mil-suptitle mil-light mil-upper mil-up mil-mb-30">Communities</span>
-                                    <div style="display: flex; gap: 10%; width: 600px;">
-                                        <div>
-                                            <a href="https://www.ashtoncourtkc.com/"
-                                                class="row mil-text-sm mil-up mil-light-soft">Ashton
-                                                Court Apartments Homes</a>
-                                            <a href="https://www.ashtonplacekc.com/"
-                                                class="row mil-text-sm mil-up mil-light-soft">Ashton
-                                                Place Apartment Homes</a>
-                                            <a href="https://www.canyoncreekapartmentsllc.com/"
-                                                class="row mil-text-sm mil-up mil-light-soft">Canyon Creek Apartment
-                                                Homes</a>
-                                            <a href="https://www.coachhousekc.com/"
-                                                class="row mil-text-sm mil-up mil-light-soft">Coach House
-                                                Apartment Homes</a>
-                                            <a href="https://corneliasuites.landmarksf.com/"
-                                                class="row mil-text-sm mil-up mil-light-soft">Cornelia Suites</a>
-                                            <a href="https://www.gatehouseapartmentsllc.com/"
-                                                class="row mil-text-sm mil-up mil-light-soft">Gatehouse Apartment
-                                                Homes</a>
-                                            <a href="https://www.olathehaciendas.com/"
-                                                class="row mil-text-sm mil-up mil-light-soft">Horizon
-                                                Pointe Apartment Homes</a>
-                                            <a href="https://www.marineviewalameda.com/"
-                                                class="row mil-text-sm mil-up mil-light-soft">Marine
-                                                View Apartment Homes</a>
-                                            <a href="https://www.meadowoodvillagedixon.com/"
-                                                class="row mil-text-sm mil-up mil-light-soft">Meadowood Village
-                                                Apartment Homes</a>
-                                            <a href="https://www.olathehaciendas.com/"
-                                                class="row mil-text-sm mil-up mil-light-soft">Olathe
-                                                Haciendas – Apartment Homes</a>
-                                            <a href="https://richelieusuites.landmarksf.com/"
-                                                class="row mil-text-sm mil-up mil-light-soft">Richelieu Suites</a>
-                                            <a href="https://www.riverwoodlansing.com/"
-                                                class="row mil-text-sm mil-up mil-light-soft">Riverwood Apartment
-                                                Homes</a>
-                                            <a href="https://www.olathehaciendas.com/"
-                                                class="row mil-text-sm mil-up mil-light-soft">Rolling
-                                                Ridge Apartments</a>
-                                        </div>
-                                        <div>
-                                            <a href="https://www.somersetparknm.com/"
-                                                class="row mil-text-sm mil-up mil-light-soft">Sheridan
-                                                Crossing Apartments</a>
-                                            <a href="https://www.somersetparknm.com/"
-                                                class="row mil-text-sm mil-up mil-light-soft">Somerset
-                                                Park Apartment Homes</a>
-                                            <a href="https://taylorsuites.landmarksf.com/"
-                                                class="row mil-text-sm mil-up mil-light-soft">Taylor Suites</a>
-                                            <a href="https://www.bridgesatfoxridgeks.com/"
-                                                class="row mil-text-sm mil-up mil-light-soft">The
-                                                Bridges at Foxridge Apartment Homes</a>
-                                            <a href="https://www.thepearlnm.com/"
-                                                class="row mil-text-sm mil-up mil-light-soft">The Pearl at
-                                                Sweetcreek Apartment Homes</a>
-                                            <a href="https://www.raintreetopeka.com/"
-                                                class="row mil-text-sm mil-up mil-light-soft">The
-                                                Raintree Apartment Homes</a>
-                                            <a href="https://www.theretreatnm.com/"
-                                                class="row mil-text-sm mil-up mil-light-soft">The Retreat
-                                                Apartment Homes</a>
-                                            <a href="https://www.theridgeop.com/"
-                                                class="row mil-text-sm mil-up mil-light-soft">The Ridge of
-                                                Overland Park Apartment Homes</a>
-                                            <a href="https://www.townshipkc.com/"
-                                                class="row mil-text-sm mil-up mil-light-soft">The Township
-                                                Apartment Homes</a>
-                                            <a href="https://www.threecrownalameda.com/"
-                                                class="row mil-text-sm mil-up mil-light-soft">Three
-                                                Crown Apartment Homes</a>
-                                            <a href="https://www.waldoheightskc.com/"
-                                                class="row mil-text-sm mil-up mil-light-soft">Waldo
-                                                Heights Apartment Homes</a>
-                                            <a href="https://www.whiteoakapartmentsllc.com/"
-                                                class="row mil-text-sm mil-up mil-light-soft">White Oak Apartment
-                                                Homes</a>
-                                            <a href="https://www.willowcreekaptskc.com/"
-                                                class="row mil-text-sm mil-up mil-light-soft">Willow
-                                                CreekApartment Homes</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <a href="/" class="mil-logo mil-footer-logo mil-up"> <img src="img/logo.png"
-                                    alt="Landmark Logo"> </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="container-fluid">
-                    <div class="mil-footer-bottom">
-                        <p class="mil-light-soft mil-mb-15">
-                            550 15th Street #M-17 San Francisco, CA 94103
-                        </p>
-
-                        <ul class="mil-light-soft mil-mb-15">
-                            <li>
-                                <a href="https://www.facebook.com/landmarkrealtyllcmorethanahome/">Facebook</a>
-                            </li>
-                            <li>
-                                <a href="https://www.linkedin.com/company/83172963/">LinkedIn</a>
-                            </li>
-                            <li>
-                                <a class="mil-light-soft" href="mailto:contact@landmarknational.com">
-                                    contact@landmarknational.com
-                                </a>
-                            </li>
-                            <a class="mil-light-soft" href="tel:+1415206268257">
-                                + 1 (415) 626-8257
-                            </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="container-fluid">
-                    <div class="mil-footer-bottom">
-                        <p class="mil-light-soft mil-mb-15">
-                            © 2024. All rights reserved.
-                        </p>
-
-                        <ul class="mil-light-soft mil-mb-15">
-                            <li><a href="/terms.html">Terms of Use</a></li>
-                            <li><a href="/privacy.html">Privacy Policy</a></li>
-                            <li><a href="https://nw17.ultipro.com/Login.aspx">Employee Portal</a></li>
-                        </ul>
-
-                        <img class="mil-mb-15" src="img/Equal Housing Opportunity.png" alt="Equal Housing Opportunity">
-                    </div>
-                </div>
-            </footer>
-            <!-- footer end -->
-
+            <!-- right buttons end -->
+          </div>
         </div>
-        <!-- content -->
+      </div>
+      <!-- top bar end -->
+
+      <!-- content -->
+      <div id="content">
+        <!-- banner -->
+        <section class="mil-banner mil-banner-sm">
+          <img
+            src="img/photo/12.jpg"
+            class="mil-bg-img mil-scale"
+            data-value-1=".4"
+            data-value-2="1.4"
+            alt="image"
+            style="object-position: top"
+          />
+          <div class="mil-overlay"></div>
+          <div class="container">
+            <div class="mil-top-space"></div>
+            <div class="mil-banner-content mil-center">
+              <div class="mil-mb-90">
+                <h1 class="mil-light mil-upper mil-mb-30">We’d love to talk</h1>
+                <ul class="mil-breadcrumbs mil-center">
+                  <li><a href="home-2.html">Home</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- banner end -->
+
+        <!-- about -->
+        <section>
+          <div class="container mil-p-120-60">
+            <div class="mil-softened"></div>
+            <div class="row justify-content-between">
+              <div class="col-lg-6">
+                <div class="mil-mb-90">
+                  <h2 class="mil-upper mil-up mil-mb-30">Info Contact</h2>
+                  <p class="mil-up mil-mb-40">
+                    It is a long established fact that a reader will be
+                    distracted by the readable content of a page when looking at
+                    its layout. The point of using Lorem Ipsum is that it has a
+                    more or less normal distribution of letters.
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-4 mil-relative">
+                <div class="mil-contact-sidebar">
+                  <img
+                    src="img/photo/2.jpg"
+                    alt="img"
+                    style="
+                      width: 100%;
+                      height: 200px;
+                      object-fit: cover;
+                      object-position: 0 -60px;
+                    "
+                    class="mil-mb-30"
+                  />
+
+                  <div class="mil-sidebar-info">
+                    <h6 class="mil-upper mil-up mil-mb-30">Headquarters</h6>
+                    <ul class="mil-list mil-dark mil-up mil-mb-30">
+                      <li>USA</li>
+                      <li>New York - 1800 Wazee Street</li>
+                      <li>Suite 300 NY, NY 80202</li>
+                    </ul>
+                    <h6 class="mil-upper mil-up mil-mb-30">Phone</h6>
+                    <ul class="mil-list mil-dark mil-up mil-mb-30">
+                      <li>+7 (200) 600-30-30</li>
+                      <li>+7 (200) 200 - 80 - 02</li>
+                    </ul>
+                    <h6 class="mil-upper mil-up mil-mb-30">Email</h6>
+                    <ul class="mil-list mil-dark mil-up">
+                      <li>info@Leadership.com</li>
+                      <li>hello@Leadership.com</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-7">
+                <div class="row">
+                  <div class="col-lg-4">
+                    <div class="mil-up mil-mb-60">
+                      <span class="mil-suptitle mil-upper mil-up mil-mb-30"
+                        >Wills Point</span
+                      >
+                      <p class="mil-up">
+                        10233 Gaillard Lake Est <br />Suite 420 <br />Houston,
+                        TX 75169 <br />(903) 560 - 9830
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="mil-up mil-mb-60">
+                      <span class="mil-suptitle mil-upper mil-up mil-mb-30"
+                        >Chicago</span
+                      >
+                      <p class="mil-up">
+                        10233 Gaillard Lake Est <br />Suite 420 <br />Houston,
+                        TX 75169 <br />(903) 560 - 9830
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="mil-up mil-mb-60">
+                      <span class="mil-suptitle mil-upper mil-up mil-mb-30"
+                        >Harriman</span
+                      >
+                      <p class="mil-up">
+                        10233 Gaillard Lake Est <br />Suite 420 <br />Houston,
+                        TX 75169 <br />(903) 560 - 9830
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- about end -->
+
+        <!-- map -->
+        <div class="mil-map-frame mil-up">
+          <div class="mil-map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1396.5769090312324!2d-73.6519672!3d45.5673453!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91f8abc30e0ff%3A0xfc6d9cbb49022e9c!2sManoir%20Saint-Joseph!5e0!3m2!1sen!2sua!4v1685485811069!5m2!1sen!2sua"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+        <!-- map end -->
+
+        <!-- contact -->
+        <section class="mil-relative">
+          <div class="container mil-p-120-30">
+            <div class="mil-softened"></div>
+            <div class="row justify-content-between">
+              <div class="col-lg-4">
+                <div class="mil-mb-90">
+                  <h2 class="mil-upper mil-up mil-mb-30">We’d love to talk</h2>
+                  <p class="mil-up mil-mb-30">
+                    Have a question? We’d love to hear from you. Send us a note
+                    to get the conversation started - or click on an office
+                    above and talk to us. Especially about designing something,
+                    or something we’ve designed.
+                  </p>
+                  <div class="mil-divider-lg mil-up mil-mb-30"></div>
+                  <p class="mil-up mil-mb-30">
+                    Interested in joining the team? Browse our current openings.
+                  </p>
+                  <div class="mil-up">
+                    <a href="contact.html" class="mil-link mil-upper"
+                      >Join Us
+                      <span class="mil-arrow"
+                        ><img src="img/icons/1.svg" alt="arrow" /></span
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-7">
+                <form id="cform" class="mil-mb-90 cform">
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <div
+                        class="mil-input-frame mil-dark-input mil-up mil-mb-30"
+                      >
+                        <label class="mil-upper"
+                          ><span>Full Name</span
+                          ><span class="mil-required">*</span></label
+                        >
+                        <input
+                          type="text"
+                          name="name"
+                          placeholder="Enter Your Name Here"
+                        />
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <div
+                        class="mil-input-frame mil-dark-input mil-up mil-mb-30"
+                      >
+                        <label class="mil-upper"
+                          ><span>Email address</span
+                          ><span class="mil-required">*</span></label
+                        >
+                        <input
+                          type="email"
+                          name="email"
+                          placeholder="Enter Your Email Here"
+                        />
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <div
+                        class="mil-input-frame mil-dark-input mil-up mil-mb-30"
+                      >
+                        <label class="mil-upper"
+                          ><span>Phone</span
+                          ><span class="mil-required">*</span></label
+                        >
+                        <input
+                          type="tel"
+                          name="tel"
+                          placeholder="Enter Your Phone Here"
+                        />
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <div
+                        class="mil-input-frame mil-dark-input mil-up mil-mb-30"
+                      >
+                        <label class="mil-upper"
+                          ><span>Budget</span
+                          ><span class="mil-required">*</span></label
+                        >
+                        <input
+                          type="text"
+                          name="budget"
+                          placeholder="Enter Your Name Here"
+                        />
+                      </div>
+                    </div>
+                    <div class="col-lg-12">
+                      <div
+                        class="mil-input-frame mil-dark-input mil-up mil-mb-30"
+                      >
+                        <label class="mil-upper"
+                          ><span>Message</span
+                          ><span class="mil-required">*</span></label
+                        >
+                        <textarea
+                          name="message"
+                          placeholder="Enter Your Name Here"
+                        ></textarea>
+                      </div>
+                    </div>
+                    <div class="col-lg-12">
+                      <div
+                        class="mil-checbox-frame mil-dark-input mil-up mil-mb-30"
+                      >
+                        <input
+                          checked
+                          class="mil-checkbox"
+                          id="checkbox-1"
+                          type="checkbox"
+                          value="value"
+                        />
+                        <label for="checkbox-1" class="mil-text-sm"
+                          >Accept the terms and conditions of personal
+                          data.</label
+                        >
+                      </div>
+                    </div>
+                    <div class="col-lg-12">
+                      <a
+                        href="#."
+                        onclick="$('#cform').submit(); return false;"
+                        class="mil-button mil-up"
+                        >Send Now</a
+                      >
+                    </div>
+                  </div>
+                </form>
+                <div class="alert-success mil-mb-90" style="display: none">
+                  <h5>Thanks, your message is sent successfully.</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- contact end -->
+
+        <!-- footer -->
+        <footer
+          class="mil-relative mil-p-30-0 d-flex flex-column"
+          style="background-color: #326295"
+        >
+          <div class="row justify-content-center mb-5">
+            <a
+              href="/"
+              class="mil-logo mil-footer-logo mil-up d-flex justify-content-center"
+            >
+              <img src="img/logo.png" alt="Landmark Logo" />
+            </a>
+          </div>
+          <div
+            class="container-fluid mb-5"
+            style="
+              background: linear-gradient(-90deg, #326295, #0597f2);
+              color: white;
+            "
+          >
+            <ul
+              class="d-flex justify-content-between"
+              style="list-style: none; padding: 20px 0"
+            >
+              <li>
+                <a href="mailto:contact@landmarknational.com">
+                  contact@landmarknational.com
+                </a>
+              </li>
+              <li>
+                <p>550 15th Street #M-17 San Francisco, CA 94103</p>
+              </li>
+              <li>
+                <a href="tel:+1415206268257"> + 1 (415) 626-8257 </a>
+              </li>
+            </ul>
+          </div>
+          <div class="row container mb-5">
+            <div class="col-md-2 d-flex flex-column">
+              <span class="mil-suptitle mil-light mil-upper mil-up mil-mb-30"
+                >Regions</span
+              >
+              <a
+                href="/california.html"
+                class="mil-text-sm mil-up mil-light-soft"
+                >California</a
+              >
+              <a href="/mexico.html" class="mil-text-sm mil-up mil-light-soft"
+                >New Mexico</a
+              >
+              <a href="/kansas.html" class="mil-text-sm mil-up mil-light-soft"
+                >Kansas</a
+              >
+              <a href="/missouri.html" class="mil-text-sm mil-up mil-light-soft"
+                >Missouri</a
+              >
+              <a href="/illinois.html" class="mil-text-sm mil-up mil-light-soft"
+                >Illinois</a
+              >
+            </div>
+            <div class="col-md-2 d-flex flex-column">
+              <span class="mil-suptitle mil-light mil-upper mil-up mil-mb-30"
+                >Cities</span
+              >
+              <a
+                href="/california.html"
+                class="mil-text-sm mil-up mil-light-soft"
+                >Alameda, CA</a
+              >
+              <a href="/mexico.html" class="mil-text-sm mil-up mil-light-soft"
+                >Albuquerque, NM</a
+              >
+              <a
+                href="/california.html"
+                class="mil-text-sm mil-up mil-light-soft"
+                >Dixon, CA</a
+              >
+              <a href="/missouri.html" class="mil-text-sm mil-up mil-light-soft"
+                >Kansas City, MO</a
+              >
+              <a href="/illinois.html" class="mil-text-sm mil-up mil-light-soft"
+                >Lansing, IL</a
+              >
+              <a href="/kansas.html" class="mil-text-sm mil-up mil-light-soft"
+                >Mission, KS</a
+              >
+              <a href="/kansas.html" class="mil-text-sm mil-up mil-light-soft"
+                >Olathe, KS</a
+              >
+              <a href="/kansas.html" class="mil-text-sm mil-up mil-light-soft"
+                >Overland Park, KS</a
+              >
+              <a
+                href="/california.html"
+                class="mil-text-sm mil-up mil-light-soft"
+                >San Francisco, CA</a
+              >
+              <a href="/kansas.html" class="mil-text-sm mil-up mil-light-soft"
+                >Topeka, KS</a
+              >
+            </div>
+            <div class="col-md-8 d-flex flex-column">
+              <span class="mil-suptitle mil-light mil-upper mil-up mil-mb-30"
+                >Communities</span
+              >
+              <div style="display: flex; gap: 10%">
+                <div>
+                  <a
+                    href="https://www.ashtoncourtkc.com/"
+                    class="mil-text-sm mil-up mil-light-soft"
+                    >Ashton Court Apartments Homes</a
+                  >
+                  <a
+                    href="https://www.ashtonplacekc.com/"
+                    class="mil-text-sm mil-up mil-light-soft"
+                    >Ashton Place Apartment Homes</a
+                  >
+                  <a
+                    href="https://www.canyoncreekapartmentsllc.com/"
+                    class="mil-text-sm mil-up mil-light-soft"
+                    >Canyon Creek Apartment Homes</a
+                  >
+                  <a
+                    href="https://www.coachhousekc.com/"
+                    class="mil-text-sm mil-up mil-light-soft"
+                    >Coach House Apartment Homes</a
+                  >
+                  <a
+                    href="https://corneliasuites.landmarksf.com/"
+                    class="mil-text-sm mil-up mil-light-soft"
+                    >Cornelia Suites</a
+                  >
+                  <a
+                    href="https://www.gatehouseapartmentsllc.com/"
+                    class="mil-text-sm mil-up mil-light-soft"
+                    >Gatehouse Apartment Homes</a
+                  >
+                  <a
+                    href="https://www.olathehaciendas.com/"
+                    class="mil-text-sm mil-up mil-light-soft"
+                    >Horizon Pointe Apartment Homes</a
+                  >
+                  <a
+                    href="https://www.marineviewalameda.com/"
+                    class="mil-text-sm mil-up mil-light-soft"
+                    >Marine View Apartment Homes</a
+                  >
+                  <a
+                    href="https://www.meadowoodvillagedixon.com/"
+                    class="mil-text-sm mil-up mil-light-soft"
+                    >Meadowood Village Apartment Homes</a
+                  >
+                  <a
+                    href="https://www.olathehaciendas.com/"
+                    class="mil-text-sm mil-up mil-light-soft"
+                    >Olathe Haciendas – Apartment Homes</a
+                  >
+                  <a
+                    href="https://richelieusuites.landmarksf.com/"
+                    class="mil-text-sm mil-up mil-light-soft"
+                    >Richelieu Suites</a
+                  >
+                  <a
+                    href="https://www.riverwoodlansing.com/"
+                    class="mil-text-sm mil-up mil-light-soft"
+                    >Riverwood Apartment Homes</a
+                  >
+                  <a
+                    href="https://www.olathehaciendas.com/"
+                    class="mil-text-sm mil-up mil-light-soft"
+                    >Rolling Ridge Apartments</a
+                  >
+                </div>
+                <div>
+                  <a
+                    href="https://www.somersetparknm.com/"
+                    class="mil-text-sm mil-up mil-light-soft"
+                    >Sheridan Crossing Apartments</a
+                  >
+                  <a
+                    href="https://www.somersetparknm.com/"
+                    class="mil-text-sm mil-up mil-light-soft"
+                    >Somerset Park Apartment Homes</a
+                  >
+                  <a
+                    href="https://taylorsuites.landmarksf.com/"
+                    class="mil-text-sm mil-up mil-light-soft"
+                    >Taylor Suites</a
+                  >
+                  <a
+                    href="https://www.bridgesatfoxridgeks.com/"
+                    class="mil-text-sm mil-up mil-light-soft"
+                    >The Bridges at Foxridge Apartment Homes</a
+                  >
+                  <a
+                    href="https://www.thepearlnm.com/"
+                    class="mil-text-sm mil-up mil-light-soft"
+                    >The Pearl at Sweetcreek Apartment Homes</a
+                  >
+                  <a
+                    href="https://www.raintreetopeka.com/"
+                    class="mil-text-sm mil-up mil-light-soft"
+                    >The Raintree Apartment Homes</a
+                  >
+                  <a
+                    href="https://www.theretreatnm.com/"
+                    class="mil-text-sm mil-up mil-light-soft"
+                    >The Retreat Apartment Homes</a
+                  >
+                  <a
+                    href="https://www.theridgeop.com/"
+                    class="mil-text-sm mil-up mil-light-soft"
+                    >The Ridge of Overland Park Apartment Homes</a
+                  >
+                  <a
+                    href="https://www.townshipkc.com/"
+                    class="mil-text-sm mil-up mil-light-soft"
+                    >The Township Apartment Homes</a
+                  >
+                  <a
+                    href="https://www.threecrownalameda.com/"
+                    class="mil-text-sm mil-up mil-light-soft"
+                    >Three Crown Apartment Homes</a
+                  >
+                  <a
+                    href="https://www.waldoheightskc.com/"
+                    class="mil-text-sm mil-up mil-light-soft"
+                    >Waldo Heights Apartment Homes</a
+                  >
+                  <a
+                    href="https://www.whiteoakapartmentsllc.com/"
+                    class="mil-text-sm mil-up mil-light-soft"
+                    >White Oak Apartment Homes</a
+                  >
+                  <a
+                    href="https://www.willowcreekaptskc.com/"
+                    class="mil-text-sm mil-up mil-light-soft"
+                    >Willow CreekApartment Homes</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="container-fluid"
+            style="
+              background: linear-gradient(-90deg, #326295, #0597f2);
+              color: white;
+            "
+          >
+            <ul
+              class="d-flex justify-content-between"
+              style="list-style: none; padding: 20px 0"
+            >
+              <li>
+                <a href="/">Home</a>
+              </li>
+              <li>
+                <a href="/about.html">About</a>
+              </li>
+              <li>
+                <a href="/leadership.html">Leadership</a>
+              </li>
+              <li>
+                <a href="/careers.html">Careers</a>
+              </li>
+              <li>
+                <a href="/regions.html">Communities</a>
+              </li>
+              <li>
+                <a
+                  href="https://www.facebook.com/landmarkrealtyllcmorethanahome/"
+                >
+                  <i class="fa fa-facebook"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/company/83172963/">
+                  <i class="fa fa-linkedin"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="container-fluid">
+            <div class="mil-footer-bottom">
+              <p class="mil-light-soft mil-mb-15">
+                © 2024. All rights reserved.
+              </p>
+
+              <ul class="mil-light-soft mil-mb-15">
+                <li><a href="/terms.html">Terms of Use</a></li>
+                <li><a href="/privacy.html">Privacy Policy</a></li>
+                <li>
+                  <a href="https://nw17.ultipro.com/Login.aspx"
+                    >Employee Portal</a
+                  >
+                </li>
+              </ul>
+
+              <img
+                class="mil-mb-15"
+                src="img/Equal Housing Opportunity.png"
+                alt="Equal Housing Opportunity"
+              />
+            </div>
+          </div>
+        </footer>
+        <!-- footer end -->
+      </div>
+      <!-- content -->
     </div>
     <!-- wrapper end -->
 
@@ -539,36 +711,42 @@
     <script src="js/main.js"></script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125314689-11"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-125314689-11"
+    ></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-        gtag('config', 'UA-125314689-11');
+      gtag("config", "UA-125314689-11");
     </script>
 
     <!-- bslthemes.com buttons html begin -->
     <div class="bsl-popup" data-theme="Leadership" data-category="html">
-        <div class="bsl-popup__buttons"></div>
-        <div class="bsl-popup__content bsl-popup__content-related">
-            <div class="bsl-popup__menu"></div>
-            <div class="bsl-popup__tabs">
-                <div class="bsl-popup__tab bsl-popup__tab-demo"></div>
-                <div class="bsl-popup__tab bsl-popup__tab-all"></div>
-                <div class="bsl-popup__tab bsl-popup__tab-related"></div>
-                <div class="bsl-popup__tab bsl-popup__tab-version"></div>
-            </div>
+      <div class="bsl-popup__buttons"></div>
+      <div class="bsl-popup__content bsl-popup__content-related">
+        <div class="bsl-popup__menu"></div>
+        <div class="bsl-popup__tabs">
+          <div class="bsl-popup__tab bsl-popup__tab-demo"></div>
+          <div class="bsl-popup__tab bsl-popup__tab-all"></div>
+          <div class="bsl-popup__tab bsl-popup__tab-related"></div>
+          <div class="bsl-popup__tab bsl-popup__tab-version"></div>
         </div>
-        <div class="bsl-popup__content bsl-popup__content-help"></div>
+      </div>
+      <div class="bsl-popup__content bsl-popup__content-help"></div>
     </div>
     <!-- bslthemes.com buttons html end -->
 
     <!-- bslthemes.com buttons assets begin -->
-    <link rel="stylesheet" href="https://bslthemes.com/bslthms-advanced-btns/assets/style.css">
+    <link
+      rel="stylesheet"
+      href="https://bslthemes.com/bslthms-advanced-btns/assets/style.css"
+    />
     <script src="https://bslthemes.com/bslthms-advanced-btns/assets/script.js"></script>
     <!-- bslthemes.com buttons assets end -->
-
-</body>
-
+  </body>
 </html>
