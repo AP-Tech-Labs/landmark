@@ -294,7 +294,6 @@ a {
 .mil-footer-navigation.mil-dark nav ul li a:hover,
 .mil-hori-list li a:hover,
 .mil-nav-buttons .mil-slider-button:hover,
-.mil-navigation nav ul li a:hover,
 .mil-page-numbers li a:hover {
   color: var(--accent-color);
 }
@@ -694,6 +693,11 @@ a {
   margin-top: 65px;
 }
 
+.mil-p-30-30 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .mil-p-120-120 {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -852,6 +856,10 @@ a {
 
 .mil-banner.mil-banner-sm {
   height: 600px;
+}
+
+.mil-banner.mil-banner-md {
+  height: 800px;
 }
 
 .mil-nav-position {
@@ -2399,6 +2407,10 @@ footer .mil-logo {
   padding-bottom: 120%;
 }
 
+.mil-navigation nav ul li a:hover {
+  color: #000000;
+}
+
 @media screen and (max-width: 1400px) {
   .mil-member-portrait {
     padding-bottom: 140%;
@@ -2408,6 +2420,10 @@ footer .mil-logo {
 @media screen and (max-width: 1200px) {
   .mil-banner.mil-banner-sm {
     height: 480px;
+  }
+
+  .mil-banner.mil-banner-md {
+    height: 600px;
   }
 
   .mil-top-panel-buttons .mil-search-btn {
@@ -2459,13 +2475,8 @@ footer .mil-logo {
   }
 
   .mil-navigation nav ul li a {
-    color: #000;
     position: relative;
     padding: 0 15px;
-  }
-
-  .mil-navigation nav ul li a:hover {
-    color: #000;
   }
 
   .mil-navigation nav ul li.mil-has-children {
