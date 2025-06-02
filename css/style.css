@@ -2983,7 +2983,7 @@ footer .mil-logo {
   transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1),
     box-shadow 0.25s cubic-bezier(0.4, 0, 0.2, 1),
     border-color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
-  border-radius: 18px;
+  border-radius: 10px;
   border: 2px solid transparent;
   box-shadow: 0 2px 8px rgba(50, 98, 149, 0.04);
   margin-bottom: 24px;
