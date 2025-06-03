@@ -1,0 +1,28 @@
+/* Rocket Scroll Animation Styles */
+.mil-rocket-scroll {
+  position: fixed;
+  left: 20px;
+  bottom: 100px;
+  width: 80px;
+  height: auto;
+  z-index: 1000;
+  transition: all 0.3s ease;
+}
+
+.mil-rocket-scroll img {
+  width: 100%;
+  height: auto;
+}
+
+.mil-rocket-scroll:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .mil-rocket-scroll {
+    width: 30px;
+    left: 10px;
+    bottom: 80px;
+  }
+}
