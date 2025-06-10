@@ -33,7 +33,7 @@ svg#us-map {
   border-radius: 4px;
   font-size: 1rem;
   pointer-events: none;
-  position: absolute;
+  position: fixed;
   z-index: 1000;
   white-space: nowrap;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);

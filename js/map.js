@@ -68,11 +68,10 @@ Promise.all([
     })
     .on("mousemove", (event) => {
       // Position tooltip near the mouse
-      const offsetX = 15;
-      const offsetY = -10;
+      const offset = 15;
       tooltip
-        .style("left", event.clientX + offsetX + "px")
-        .style("top", event.clientY + offsetY + "px");
+        .style("left", event.clientX + offset + "px")
+        .style("top", event.clientY + offset + "px");
     })
     .on("mouseout", () => {
       tooltip.style("display", "none");
