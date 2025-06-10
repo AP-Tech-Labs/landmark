@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="css/style.css" />
     <!-- Rocket animation styles -->
     <link rel="stylesheet" href="css/rocket-animation.css" />
+    <!-- Team benefits styles -->
+    <link rel="stylesheet" href="css/team-benefits.css" />
     <title>Landmark</title>
   </head>
 
@@ -153,98 +155,153 @@
 
         <!-- services -->
         <section>
-          <div class="container mil-p-120-90">
+          <div class="mil-p-120-90">
             <div class="mil-softened"></div>
 
             <div class="mil-center mil-mb-90">
-              <span class="mil-suptitle mil-upper mil-up mil-mb-30"
-                >Benefits</span
-              >
-              <h2 class="mil-upper mil-up">Team Benefits</h2>
+              <h2 class="mil-upper mil-up team-benefits-title">
+                Team Benefits
+              </h2>
             </div>
 
-            <div class="row">
-              <div class="col-lg-4 mil-up">
-                <div class="mil-service-card mil-mb-30">
-                  <div class="mil-card-number">01.</div>
-                  <div class="mil-center">
-                    <div class="mil-icon mil-icon-lg mil-mb-30">
-                      <img src="img/photo/Healthcare Icon.png" alt="icon" />
+            <div class="team-benefits-container">
+              <img
+                src="img/benefits/bg.png"
+                class="mil-bg-img"
+                alt="image"
+                style="object-position: top"
+                data-value-1="1"
+                data-value-2="1.2"
+              />
+
+              <div class="container row mil-p-90-90 mx-auto">
+                <!-- Main benefits image with iPad -->
+                <div class="col-lg-8">
+                  <div class="ipad-container">
+                    <div class="ipad-content">
+                      <img src="/img/benefits/default.jpg" alt="" />
                     </div>
-                    <h4 class="mil-upper mil-mb-20">Healthcare</h4>
-                    <div class="mil-divider-sm mil-mb-20"></div>
-                    <p class="mil-service-text">Premium Insurance.</p>
+                    <img
+                      src="/img/photo/ipad.png"
+                      alt="Team Benefits iPad"
+                      class="ipad-frame"
+                    />
                   </div>
                 </div>
-              </div>
-              <div class="col-lg-4 mil-up">
-                <div class="mil-service-card mil-mb-30">
-                  <div class="mil-card-number">02.</div>
-                  <div class="mil-center">
-                    <div class="mil-icon mil-icon-lg mil-mb-30">
-                      <img
-                        src="img/photo/dental-clinic_15595666.png"
-                        alt="icon"
-                      />
+
+                <!-- Benefits cards -->
+                <div class="col-lg-4 benefits-cards-container">
+                  <div class="benefits-cards-column">
+                    <!-- Healthcare -->
+                    <div
+                      class="benefit-card"
+                      data-content-image="/img/benefits/healthcare.jpg"
+                    >
+                      <div class="benefit-card-icon">
+                        <svg viewBox="0 0 24 24">
+                          <path
+                            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
+                          />
+                        </svg>
+                      </div>
+                      <div class="benefit-card-content">
+                        <h4>Healthcare</h4>
+                        <p>Premium Insurance</p>
+                      </div>
                     </div>
-                    <h4 class="mil-upper mil-mb-20">Dental & Vision</h4>
-                    <div class="mil-divider-sm mil-mb-20"></div>
-                    <p class="mil-service-text">Dental & Vision Insurance.</p>
+
+                    <!-- Dental & Vision -->
+                    <div
+                      class="benefit-card"
+                      data-content-image="/img/benefits/dental-vision.jpg"
+                    >
+                      <div class="benefit-card-icon">
+                        <svg viewBox="0 0 24 24">
+                          <path
+                            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.94-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"
+                          />
+                        </svg>
+                      </div>
+                      <div class="benefit-card-content">
+                        <h4>Dental & Vision</h4>
+                        <p>Dental & Vision Insurance</p>
+                      </div>
+                    </div>
+
+                    <!-- Life & Disability -->
+                    <div
+                      class="benefit-card"
+                      data-content-image="/img/benefits/life-disability.jpg"
+                    >
+                      <div class="benefit-card-icon">
+                        <svg viewBox="0 0 24 24">
+                          <path
+                            d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"
+                          />
+                        </svg>
+                      </div>
+                      <div class="benefit-card-content">
+                        <h4>Life & Disability</h4>
+                        <p>Life & Disability Insurance</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="col-lg-4 mil-up">
-                <div class="mil-service-card mil-mb-30">
-                  <div class="mil-card-number">03.</div>
-                  <div class="mil-center">
-                    <div class="mil-icon mil-icon-lg mil-mb-30">
-                      <img src="img/photo/Family Icon.png" alt="icon" />
+
+                <!-- Bottom row benefits -->
+                <div class="col-12 mt-4 bottom-benefits-row">
+                  <div class="bottom-benefits-container">
+                    <!-- Paid Time Off -->
+                    <div
+                      class="bottom-benefit-card"
+                      data-content-image="/img/benefits/paid-time-off.jpg"
+                    >
+                      <div class="benefit-card-icon">
+                        <svg viewBox="0 0 24 24">
+                          <path
+                            d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM7 10h5v5H7z"
+                          />
+                        </svg>
+                      </div>
+                      <div class="benefit-card-content">
+                        <h4>Paid Time Off</h4>
+                        <p>Holiday & Paid Time off</p>
+                      </div>
                     </div>
-                    <h4 class="mil-upper mil-mb-20">Life & Disability</h4>
-                    <div class="mil-divider-sm mil-mb-20"></div>
-                    <p class="mil-service-text">Life & Disability Insurance.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 mil-up">
-                <div class="mil-service-card mil-mb-30">
-                  <div class="mil-card-number">04.</div>
-                  <div class="mil-center">
-                    <div class="mil-icon mil-icon-lg mil-mb-30">
-                      <img src="img/photo/Break Icon 64.png" alt="icon" />
+
+                    <!-- Compensation -->
+                    <div
+                      class="bottom-benefit-card"
+                      data-content-image="/img/benefits/compensation.jpg"
+                    >
+                      <div class="benefit-card-icon">
+                        <svg viewBox="0 0 24 24">
+                          <path
+                            d="M11.8 10.9c-2.27-.59-3-1.2-3-2.15 0-1.09 1.01-1.85 2.7-1.85 1.78 0 2.44.85 2.5 2.1h2.21c-.07-1.72-1.12-3.3-3.21-3.81V3h-3v2.16c-1.94.42-3.5 1.68-3.5 3.61 0 2.31 1.91 3.46 4.7 4.13 2.5.6 3 1.48 3 2.41 0 .69-.49 1.79-2.7 1.79-2.06 0-2.87-.92-2.98-2.1h-2.2c.12 2.19 1.76 3.42 3.68 3.83V21h3v-2.15c1.95-.37 3.5-1.5 3.5-3.55 0-2.84-2.43-3.81-4.7-4.4z"
+                          />
+                        </svg>
+                      </div>
+                      <div class="benefit-card-content">
+                        <h4>Compensation</h4>
+                        <p>Competitive Compensation</p>
+                      </div>
                     </div>
-                    <h4 class="mil-upper mil-mb-20">Paid Time Off</h4>
-                    <div class="mil-divider-sm mil-mb-20"></div>
-                    <p class="mil-service-text">Holiday & Paid Time off.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 mil-up">
-                <div class="mil-service-card mil-mb-30">
-                  <div class="mil-card-number">05.</div>
-                  <div class="mil-center">
-                    <div class="mil-icon mil-icon-lg mil-mb-30">
-                      <img
-                        src="img/photo/Compensation Icon 64.png"
-                        alt="icon"
-                      />
+
+                    <!-- Rental Discount -->
+                    <div
+                      class="bottom-benefit-card"
+                      data-content-image="/img/benefits/rental-discount.png"
+                    >
+                      <div class="benefit-card-icon">
+                        <svg viewBox="0 0 24 24">
+                          <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z" />
+                        </svg>
+                      </div>
+                      <div class="benefit-card-content">
+                        <h4>Rental Discount</h4>
+                        <p>25% Discount on Rent</p>
+                      </div>
                     </div>
-                    <h4 class="mil-upper mil-mb-20">Compensation</h4>
-                    <div class="mil-divider-sm mil-mb-20"></div>
-                    <p class="mil-service-text">Competitive Compensation.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 mil-up">
-                <div class="mil-service-card mil-mb-30">
-                  <div class="mil-card-number">05.</div>
-                  <div class="mil-center">
-                    <div class="mil-icon mil-icon-lg mil-mb-30">
-                      <img src="img/photo/Rental Icon 64.png" alt="icon" />
-                    </div>
-                    <h4 class="mil-upper mil-mb-20">Rental Discount</h4>
-                    <div class="mil-divider-sm mil-mb-20"></div>
-                    <p class="mil-service-text">25% Discount on Rent.</p>
                   </div>
                 </div>
               </div>
@@ -704,6 +761,8 @@
     <script src="js/main.js"></script>
     <!-- Rocket animation js -->
     <script src="js/rocket-animation.js"></script>
+    <!-- Team benefits js -->
+    <script src="js/team-benefits.js"></script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script

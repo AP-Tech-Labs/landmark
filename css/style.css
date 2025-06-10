@@ -2426,7 +2426,7 @@ footer .mil-logo {
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 768px) {
   .mil-banner.mil-banner-sm {
     height: 480px;
   }
