@@ -1296,8 +1296,17 @@ a {
   transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
 }
 
-.mil-icon-box:hover .mil-icon img,
-.mil-team-member:hover .mil-avatar {
+.mil-team-member {
+  color: #fff;
+  cursor: default;
+  transition: all 0.4s ease-in-out;
+}
+
+.mil-team-member:hover {
+  transform: scale(1.05);
+}
+
+.mil-icon-box:hover .mil-icon img {
   transform: scale(1.1);
 }
 
