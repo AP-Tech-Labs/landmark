@@ -1,17 +1,28 @@
 /* Rocket Scroll Animation Styles */
+.rocket-scroll-container {
+  position: relative;
+}
+
+.guide-line {
+  width: calc(100% - 150px);
+  height: 1px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
 .mil-rocket-scroll {
-  position: fixed;
-  left: 20px;
-  bottom: 100px;
   width: 80px;
-  height: auto;
-  z-index: 1000;
   transition: all 0.3s ease;
+  z-index: 1000;
 }
 
 .mil-rocket-scroll img {
+  position: relative;
   width: 100%;
-  height: auto;
+  display: block;
 }
 
 .mil-rocket-scroll:hover {
@@ -20,9 +31,7 @@
 }
 
 @media (max-width: 768px) {
-  .mil-rocket-scroll {
-    width: 30px;
-    left: 10px;
-    bottom: 80px;
+  .rocket-scroll-container {
+    display: none;
   }
 }
