@@ -1473,6 +1473,7 @@ a {
 .mil-portfolio-item:hover .mil-project-descr {
   transform: translateY(0);
   opacity: 1;
+  background-color: transparent;
 }
 
 .mil-service-card:hover .mil-go-buton {
@@ -1533,9 +1534,14 @@ a {
   align-items: center;
   text-align: center;
   padding: 60px;
-  background-color: rgba(50, 98, 149, 0.7);
   transform: translateY(30px) scale(0.9);
   opacity: 0;
+}
+
+.mil-portfolio-item-2 .mil-project-descr h3,
+.mil-portfolio-item-2 .mil-project-descr p,
+.mil-portfolio-item-2 .mil-project-descr .mil-link {
+  color: #fff;
 }
 
 .mil-accordion-content,
@@ -1548,6 +1554,9 @@ a {
 .mil-portfolio-item-2:hover img,
 .mil-portfolio-item:hover img {
   transform: scale(1);
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px;
 }
 
 .mil-portfolio-item-2.mil-long-item {
@@ -1555,8 +1564,9 @@ a {
 }
 
 .mil-portfolio-item-2 .mil-project-descr {
-  padding: 90px 60px 60px 100px;
-  background-color: var(--accent-color);
+  padding: 30px 100px;
+  background-color: transparent;
+  backdrop-filter: brightness(0.8);
   width: 100%;
   position: absolute;
   bottom: 0;
