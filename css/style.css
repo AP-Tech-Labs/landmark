@@ -2993,6 +2993,16 @@ footer .mil-logo {
   display: block;
 }
 
+@media screen and (max-width: 992px) {
+  .mil-banner-video {
+    position: relative;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-top: 100px;
+  }
+}
+
 /* Process step hover animation */
 .mil-process-step {
   display: inline-block;
