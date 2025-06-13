@@ -62,6 +62,7 @@ html {
   overflow: hidden;
   width: 100%;
   height: auto;
+  padding-top: 100px;
 }
 
 .mil-divider-lg,
@@ -3000,7 +3001,6 @@ footer .mil-logo {
     width: 100%;
     height: auto;
     object-fit: cover;
-    margin-top: 100px;
   }
 }
 

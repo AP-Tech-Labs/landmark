@@ -1,0 +1,144 @@
+/* Mobile Menu Styles */
+
+/* Hide desktop nav on mobile */
+@media (max-width: 768px) {
+  .mil-desktop-nav {
+    display: none !important;
+  }
+}
+
+/* Show desktop nav on larger screens */
+@media (min-width: 769px) {
+  .mil-mobile-menu-btn {
+    display: none !important;
+  }
+  .mil-mobile-menu-overlay {
+    display: none !important;
+  }
+}
+
+/* Mobile menu button */
+.mil-mobile-menu-btn {
+  display: none;
+  cursor: pointer;
+  padding: 15px;
+  z-index: 1001;
+}
+
+@media (max-width: 768px) {
+  .mil-mobile-menu-btn {
+    display: block;
+  }
+}
+
+/* Hamburger icon */
+.mil-hamburger-icon {
+  width: 32px;
+  height: 32px;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.mil-mobile-menu-btn:hover .mil-hamburger-icon {
+  transform: scale(1.1);
+}
+
+/* Mobile menu overlay */
+.mil-mobile-menu-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 1000;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.mil-mobile-menu-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Mobile menu */
+.mil-mobile-menu {
+  position: absolute;
+  top: 0;
+  right: -100%;
+  width: 300px;
+  height: 100%;
+  background: #fff;
+  transition: all 0.3s ease-in-out;
+  overflow-y: auto;
+}
+
+.mil-mobile-menu-overlay.active .mil-mobile-menu {
+  right: 0;
+}
+
+/* Mobile menu close button */
+.mil-mobile-menu-close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  cursor: pointer;
+  font-size: 24px;
+  color: #333;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  z-index: 1001;
+}
+
+.mil-mobile-menu-close:hover {
+  background: rgba(0, 0, 0, 0.2);
+  transform: scale(1.1);
+}
+
+/* Mobile navigation */
+.mil-mobile-nav {
+  padding: 60px 0 20px 0;
+}
+
+.mil-mobile-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.mil-mobile-nav ul li {
+  border-bottom: 1px solid #eee;
+}
+
+.mil-mobile-nav ul li:last-child {
+  border-bottom: none;
+}
+
+.mil-mobile-nav ul li a {
+  display: block;
+  padding: 15px 20px;
+  color: #333;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.mil-mobile-nav ul li a:hover {
+  background: #f8f9fa;
+  color: #326295;
+}
+
+/* Adjust top panel for mobile */
+@media (max-width: 768px) {
+  .mil-top-panel-content {
+    justify-content: space-between;
+  }
+}

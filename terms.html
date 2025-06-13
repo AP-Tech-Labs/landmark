@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/plugins/magnific-popup.css" />
 
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/mobile-menu.css" />
     <title>Landmark</title>
   </head>
 
@@ -31,7 +32,8 @@
               <img src="img/logo.png" alt="Landmark Logo" />
             </a>
 
-            <div class="mil-navigation">
+            <!-- Desktop Navigation -->
+            <div class="mil-navigation mil-desktop-nav">
               <nav>
                 <ul>
                   <!-- <li class="mil-has-children">
@@ -51,6 +53,11 @@
               </nav>
             </div>
 
+            <!-- Mobile Hamburger Button -->
+            <div class="mil-mobile-menu-btn">
+              <i data-lucide="menu" class="mil-hamburger-icon"></i>
+            </div>
+
             <!-- right buttons -->
             <!-- <div class="mil-top-panel-buttons">
               <a href="contact.html" class="mil-button mil-sm">Contact Us</a>
@@ -59,6 +66,25 @@
               </div>
             </div> -->
             <!-- right buttons end -->
+          </div>
+        </div>
+      </div>
+      <!-- Mobile Navigation Overlay -->
+      <div class="mil-mobile-menu-overlay">
+        <div class="mil-mobile-menu">
+          <div class="mil-mobile-menu-close">
+            <i data-lucide="x"></i>
+          </div>
+          <nav class="mil-mobile-nav">
+            <ul>
+              <li><a href="/">Home</a></li>
+              <li><a href="/about.html">About Us</a></li>
+              <li><a href="/leadership.html">Leadership</a></li>
+              <li><a href="/careers.html">Careers</a></li>
+              <li><a href="/regions.html">Communities</a></li>
+            </ul>
+          </nav>
+        </div>
           </div>
         </div>
       </div>
@@ -1213,6 +1239,12 @@
     <script src="js/plugins/magnific-popup.js"></script>
     <!-- Leadership js -->
     <script src="js/main.js"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Mobile Menu JavaScript -->
+    <script src="js/mobile-menu.js"></script>
+    <script>
+      lucide.createIcons();
+    </script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script

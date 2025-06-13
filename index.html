@@ -18,6 +18,7 @@
 
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/map.css" />
+    <link rel="stylesheet" href="css/mobile-menu.css" />
     <title>Landmark</title>
   </head>
 
@@ -36,7 +37,8 @@
               <img src="img/logo.png" alt="Landmark Logo" />
             </a>
 
-            <div class="mil-navigation">
+            <!-- Desktop Navigation -->
+            <div class="mil-navigation mil-desktop-nav">
               <nav>
                 <ul>
                   <li><a href="/">Home</a></li>
@@ -47,6 +49,31 @@
                 </ul>
               </nav>
             </div>
+
+            <!-- Mobile Hamburger Button -->
+            <div class="mil-mobile-menu-btn">
+              <i data-lucide="menu" class="mil-hamburger-icon"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mobile Navigation Overlay -->
+      <div class="mil-mobile-menu-overlay">
+        <div class="mil-mobile-menu">
+          <div class="mil-mobile-menu-close">
+            <i data-lucide="x"></i>
+          </div>
+          <nav class="mil-mobile-nav">
+            <ul>
+              <li><a href="/">Home</a></li>
+              <li><a href="/about.html">About Us</a></li>
+              <li><a href="/leadership.html">Leadership</a></li>
+              <li><a href="/careers.html">Careers</a></li>
+              <li><a href="/regions.html">Communities</a></li>
+            </ul>
+          </nav>
+        </div>
           </div>
         </div>
       </div>
@@ -913,6 +940,8 @@
     <script src="https://unpkg.com/topojson@3"></script>
     <script src="js/map.js"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Mobile Menu JavaScript -->
+    <script src="js/mobile-menu.js"></script>
     <script>
       lucide.createIcons();
     </script>
