@@ -433,6 +433,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #fff;
 }
 
 .mil-link .mil-arrow.mil-light,
@@ -569,10 +570,10 @@ a {
   margin-right: 0;
 }
 
-.mil-advantage .mil-icon img,
+.mil-advantage .mil-icon svg,
 .mil-footer-bottom ul li a,
 .mil-footer-navigation nav ul li a,
-.mil-icon-box .mil-icon img,
+.mil-icon-box .mil-icon svg,
 .mil-navigation nav ul li a {
   transition: 0.2s cubic-bezier(0, 0, 0.3642, 1);
 }
@@ -820,7 +821,7 @@ a {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .mil-banner {
@@ -1073,7 +1074,7 @@ a {
 }
 
 .mil-illustration .mil-about-counter {
-  padding: 60px;
+  padding: 20px 50px;
   position: absolute;
   bottom: -1px;
   right: -1px;
@@ -1262,6 +1263,12 @@ a {
 .mil-icon {
   display: inline-flex;
   padding: 15px;
+  color: black;
+}
+
+.mil-icon svg {
+  width: 100%;
+  height: 100%;
 }
 
 .mil-blog-card .mil-description .mil-link .mil-arrow,
@@ -1306,7 +1313,7 @@ a {
   transform: scale(1.05);
 }
 
-.mil-icon-box:hover .mil-icon img {
+.mil-icon-box:hover .mil-icon svg {
   transform: scale(1.1);
 }
 
